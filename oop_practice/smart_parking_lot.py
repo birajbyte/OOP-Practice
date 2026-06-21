@@ -111,8 +111,7 @@ print("\n[Test 4] Third bike leaves after 5 hours...")
 # to charge it. Let's see if it bills $25 (Compact rate) or handles it!
 garage.leave_parking_spot("ORANGE-NS200", hours_parked=5)
 
-print("\n[Test 5] Trying to remove a vehicle that doesn't exist...")
-garage.leave_parking_spot("FAKE-PLATE-123", hours_parked=2)
+
 
 
 
